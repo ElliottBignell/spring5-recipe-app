@@ -1,6 +1,6 @@
-package guru.springframework.services;
+package bignell.elliott.spring5recipeapp.services;
 
-import guru.springframework.domain.Recipe;
+import bignell.elliott.spring5recipeapp.domain.Recipe;
 
 import java.util.Set;
 

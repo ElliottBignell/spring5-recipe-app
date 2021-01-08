@@ -1,5 +1,4 @@
 package bignell.elliott.spring5recipeapp.repositories;
-
 import bignell.elliott.spring5recipeapp.domain.Recipe;
 import org.springframework.data.repository.CrudRepository;
 

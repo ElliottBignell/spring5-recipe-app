@@ -1,7 +1,7 @@
-package guru.springframework.services;
+package bignell.elliott.spring5recipeapp.services;
 
-import guru.springframework.domain.Recipe;
-import guru.springframework.repositories.RecipeRepository;
+import bignell.elliott.spring5recipeapp.domain.Recipe;
+import bignell.elliott.spring5recipeapp.repositories.RecipeRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

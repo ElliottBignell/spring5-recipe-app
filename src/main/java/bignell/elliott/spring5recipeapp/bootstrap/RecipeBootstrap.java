@@ -1,9 +1,9 @@
 package bignell.elliott.spring5recipeapp.bootstrap;
 
-import guru.springframework.domain.*;
-import guru.springframework.repositories.CategoryRepository;
-import guru.springframework.repositories.RecipeRepository;
-import guru.springframework.repositories.UnitOfMeasureRepository;
+import bignell.elliott.spring5recipeapp.domain.*;
+import bignell.elliott.spring5recipeapp.repositories.CategoryRepository;
+import bignell.elliott.spring5recipeapp.repositories.RecipeRepository;
+import bignell.elliott.spring5recipeapp.repositories.UnitOfMeasureRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
