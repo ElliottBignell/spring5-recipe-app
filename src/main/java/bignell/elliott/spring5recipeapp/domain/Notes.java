@@ -1,4 +1,4 @@
-package guru.springframework.domain;
+package bignell.elliott.spring5recipeapp.domain;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

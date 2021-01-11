@@ -1,9 +1,9 @@
-package guru.springframework.converters;
+package bignell.elliott.spring5recipeapp.converters;
 
-import guru.springframework.commands.IngredientCommand;
-import guru.springframework.commands.UnitOfMeasureCommand;
-import guru.springframework.domain.Ingredient;
-import guru.springframework.domain.Recipe;
+import bignell.elliott.spring5recipeapp.commands.IngredientCommand;
+import bignell.elliott.spring5recipeapp.commands.UnitOfMeasureCommand;
+import bignell.elliott.spring5recipeapp.domain.Ingredient;
+import bignell.elliott.spring5recipeapp.domain.Recipe;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -45,7 +45,7 @@ public class IngredientCommandToIngredientTest {
         command.setDescription(DESCRIPTION);
         UnitOfMeasureCommand unitOfMeasureCommand = new UnitOfMeasureCommand();
         unitOfMeasureCommand.setId(UOM_ID);
-        command.setUnitOfMeasure(unitOfMeasureCommand);
+        command.setUom(unitOfMeasureCommand);
 
         //when
         Ingredient ingredient = converter.convert(command);
@@ -78,7 +78,6 @@ public class IngredientCommandToIngredientTest {
         assertEquals(ID_VALUE, ingredient.getId());
         assertEquals(AMOUNT, ingredient.getAmount());
         assertEquals(DESCRIPTION, ingredient.getDescription());
-
     }
 
 }

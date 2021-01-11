@@ -1,7 +1,7 @@
-package guru.springframework.converters;
+package bignell.elliott.spring5recipeapp.converters;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.domain.*;
+import bignell.elliott.spring5recipeapp.commands.RecipeCommand;
+import bignell.elliott.spring5recipeapp.domain.*;
 import org.junit.Before;
 import org.junit.Test;
 

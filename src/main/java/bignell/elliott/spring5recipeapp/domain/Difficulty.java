@@ -1,4 +1,4 @@
-package guru.springframework.domain;
+package bignell.elliott.spring5recipeapp.domain;
 
 /**
  * Created by jt on 6/13/17.

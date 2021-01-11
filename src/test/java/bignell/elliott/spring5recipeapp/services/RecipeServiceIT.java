@@ -1,10 +1,10 @@
-package guru.springframework.services;
+package bignell.elliott.spring5recipeapp.services;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.converters.RecipeCommandToRecipe;
-import guru.springframework.converters.RecipeToRecipeCommand;
-import guru.springframework.domain.Recipe;
-import guru.springframework.repositories.RecipeRepository;
+import bignell.elliott.spring5recipeapp.commands.RecipeCommand;
+import bignell.elliott.spring5recipeapp.converters.RecipeCommandToRecipe;
+import bignell.elliott.spring5recipeapp.converters.RecipeToRecipeCommand;
+import bignell.elliott.spring5recipeapp.domain.Recipe;
+import bignell.elliott.spring5recipeapp.repositories.RecipeRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

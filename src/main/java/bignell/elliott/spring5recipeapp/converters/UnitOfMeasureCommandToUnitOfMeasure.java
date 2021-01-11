@@ -1,7 +1,7 @@
-package guru.springframework.converters;
+package bignell.elliott.spring5recipeapp.converters;
 
-import guru.springframework.commands.UnitOfMeasureCommand;
-import guru.springframework.domain.UnitOfMeasure;
+import bignell.elliott.spring5recipeapp.commands.UnitOfMeasureCommand;
+import bignell.elliott.spring5recipeapp.domain.UnitOfMeasure;
 import lombok.Synchronized;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.Nullable;

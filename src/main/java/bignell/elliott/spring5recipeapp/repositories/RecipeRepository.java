@@ -1,6 +1,6 @@
-package guru.springframework.repositories;
+package bignell.elliott.spring5recipeapp.repositories;
 
-import guru.springframework.domain.Recipe;
+import bignell.elliott.spring5recipeapp.domain.Recipe;
 import org.springframework.data.repository.CrudRepository;
 
 /**

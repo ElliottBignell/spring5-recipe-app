@@ -1,4 +1,4 @@
-package guru.springframework.commands;
+package bignell.elliott.spring5recipeapp.commands;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

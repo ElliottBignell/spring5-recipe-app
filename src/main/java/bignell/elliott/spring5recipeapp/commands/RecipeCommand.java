@@ -1,6 +1,6 @@
-package guru.springframework.commands;
+package bignell.elliott.spring5recipeapp.commands;
 
-import guru.springframework.domain.Difficulty;
+import bignell.elliott.spring5recipeapp.domain.Difficulty;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

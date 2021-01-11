@@ -1,4 +1,4 @@
-package guru.springframework;
+package bignell.elliott.spring5recipeapp;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

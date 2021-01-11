@@ -1,4 +1,4 @@
-package guru.springframework;
+package bignell.elliott.spring5recipeapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

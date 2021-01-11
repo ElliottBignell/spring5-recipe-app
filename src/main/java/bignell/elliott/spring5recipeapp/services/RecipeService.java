@@ -1,7 +1,7 @@
-package guru.springframework.services;
+package bignell.elliott.spring5recipeapp.services;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.domain.Recipe;
+import bignell.elliott.spring5recipeapp.commands.RecipeCommand;
+import bignell.elliott.spring5recipeapp.domain.Recipe;
 
 import java.util.Set;
 
@@ -14,5 +14,9 @@ public interface RecipeService {
 
     Recipe findById(Long l);
 
+    RecipeCommand findCommandById(Long l);
+
     RecipeCommand saveRecipeCommand(RecipeCommand command);
+
+    void deleteById(Long idToDelete);
 }

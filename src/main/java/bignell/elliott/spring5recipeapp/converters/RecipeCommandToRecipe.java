@@ -1,7 +1,7 @@
-package guru.springframework.converters;
+package bignell.elliott.spring5recipeapp.converters;
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.domain.Recipe;
+import bignell.elliott.spring5recipeapp.commands.RecipeCommand;
+import bignell.elliott.spring5recipeapp.domain.Recipe;
 import lombok.Synchronized;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.Nullable;

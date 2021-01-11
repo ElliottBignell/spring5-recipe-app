@@ -1,6 +1,6 @@
-package guru.springframework.repositories;
+package bignell.elliott.spring5recipeapp.repositories;
 
-import guru.springframework.domain.UnitOfMeasure;
+import bignell.elliott.spring5recipeapp.domain.UnitOfMeasure;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;
