@@ -1,4 +1,4 @@
-package guru.springframework.controllers;
+package bignell.elliott.spring5recipeapp.controllers;
 
 import guru.springframework.services.RecipeService;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package guru.springframework.controllers;
+package bignell.elliott.spring5recipeapp.controllers;
 
 import guru.springframework.domain.Recipe;
 import guru.springframework.services.RecipeService;
