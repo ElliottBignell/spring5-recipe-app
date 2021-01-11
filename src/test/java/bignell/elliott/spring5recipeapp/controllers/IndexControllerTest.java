@@ -1,7 +1,7 @@
-package bignell.elliott.spring5recipeapp.controllers;
+package guru.springframework.controllers;
 
-import bignell.elliott.spring5recipeapp.domain.Recipe;
-import bignell.elliott.spring5recipeapp.services.RecipeService;
+import guru.springframework.domain.Recipe;
+import guru.springframework.services.RecipeService;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;

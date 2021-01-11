@@ -1,4 +1,4 @@
-package bignell.elliott.spring5recipeapp.domain;
+package guru.springframework.domain;
 
 import org.junit.Before;
 import org.junit.Test;

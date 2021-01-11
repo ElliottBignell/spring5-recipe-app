@@ -1,4 +1,4 @@
-package bignell.elliott.spring5recipeapp.domain;
+package guru.springframework.domain;
 
 import lombok.Data;
 

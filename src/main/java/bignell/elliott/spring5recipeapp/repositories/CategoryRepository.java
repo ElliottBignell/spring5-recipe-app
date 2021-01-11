@@ -1,6 +1,6 @@
-package bignell.elliott.spring5recipeapp.repositories;
+package guru.springframework.repositories;
 
-import bignell.elliott.spring5recipeapp.domain.Category;
+import guru.springframework.domain.Category;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;
